@@ -1,0 +1,487 @@
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+@media screen and (min-width: 500px) { 
+.header{
+	background-color: yellowgreen;
+	align-items: center;
+	height: 50px;
+	width: 1024px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+
+
+}
+}
+@media screen and (min-width: 500px) { 
+
+.article-1{
+	padding-top: 0;
+	background:radial-gradient(white,teal);
+	width: 1024px;
+	height:900px ;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+.workout-shoes{
+	width: 1020px;
+	height: 600px;
+	padding-right: 0;
+	padding-left: 4px;
+
+}
+.article-2{
+	
+background: radial-gradient(teal,white);
+	width: 1024px;
+	height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.men-shoes{
+	width: 500px;
+	padding-left: 55px;
+	 padding-right: 40px;
+	 padding-top: 10px;
+}
+
+.article-3{
+	height: 850px;
+	background: radial-gradient(white,lightgray);
+	width: 1024px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.shirt{
+	width: 500px;
+	
+	padding-left: 55px;
+	 padding-right: 40px;
+	 padding-top: 10px;
+}
+.chinese-style{
+	width:320px;
+	padding-left:60px;
+	 padding-right: 20px;
+	 padding-top: 10px;
+
+	 
+}
+.article-4{
+	height: 700px;
+	background: radial-gradient(lightgray,white);
+	width: 1024px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo
+{ position: absolute;
+width:100px;
+height:50px ;
+padding-left: 30px;
+bottom: 2px;
+
+}
+}
+.kicks{
+	padding-top: 10px;
+	bottom: 70px;
+	right: 65px;
+	color:rgb(16, 17, 16);
+	font-size: 22px;
+	text-align: center;
+	}
+.casual{
+	
+text-align: center;
+right: 80px;
+color: black;
+font-size: 20px;
+}
+.babies{
+	padding: 10px;
+text-align: center;
+right: 80px;
+color: black;
+font-size: 20px;
+}
+.prod-5-p{
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;	
+}
+
+
+html {
+	box-sizing: border-box;
+}
+body {
+	background-color:grey;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+@media screen and (min-width: 500px) { 
+
+.list{
+background-color: black;
+width: 1024px;
+display: flex;
+justify-content: space-between;
+padding-left: 40px;
+padding-right: 40px;
+margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+
+}
+.list :hover{
+	background-color: blueviolet;
+}
+.list li{
+	list-style: none;
+	text-decoration: none;
+	color: snow;
+	
+	
+}
+.list li a{
+	color: snow;
+	text-decoration: none;
+	font-size: 20px;
+}
+.shipping{
+	background-color: lightgray;
+	padding-top: 20px;
+	width: 1024px;
+	height:60px;
+	margin-left: auto;
+    margin-right: auto;
+text-align: center;
+color: black;
+
+}
+}
+.black{
+	position: absolute;
+	top: 20px;
+	padding-left: 180px;
+	padding-right: 50px;
+	margin: auto;
+	text-align: center;
+	
+	
+}
+.black :hover
+{ color: rgb(4, 250, 4);}
+
+ .black li{
+	display: inline-block;
+	text-decoration: none;
+	
+}
+
+.black li a {
+margin-right: 60px;
+color: white;
+font-size: 20px;
+text-decoration: none;
+
+}
+
+
+
+.cart {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+		list-style: none;
+		display: flex;
+		
+	}
+.cart a{
+color:black;
+}
+
+
+
+
+
+.form{
+	
+	position: absolute;
+    right: 50px;
+   top: 20px;
+    text-align: right;
+	padding-right: 10px;
+	
+}
+@media screen and (min-width: 500px) 
+{ 
+	
+.footer{
+
+	background-color:black;
+    height: 140px;
+    width:1024px ;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.product-5{
+	
+	background: radial-gradient(wheat,white);
+	width: 1024px;
+	height: 750px;
+	margin-left: auto;
+    margin-right: auto;	
+	
+}
+
+}
+.footer p {
+	
+		font-size: 12px;
+		text-align: center;
+		color: azure;
+		
+		
+	}
+.terms li{
+	display: inline-block;
+	margin-right: 60px;
+	margin-left: 60px;
+	list-style: none;
+	text-align: center;
+padding-top: 10px;
+padding-left: 60px;
+	
+}
+.terms li a
+{
+color: white;
+}
+.see-more{
+	text-decoration: none;
+	padding-bottom: 4px;
+	padding-left: 35px;
+	font-size: 20px;
+
+}
+
+.see-more :hover{
+	color: crimson;
+}
+
+.social li{
+	display: inline-block;
+	list-style: none;
+	margin-right:70px;
+	align-items: baseline;
+	padding-left: 102px;
+
+}
+
+.social li a{
+	padding-left: 10px;
+	color: tan;
+}
+
+@media screen and (min-width: 500px) { 
+ .lady-image{
+	 width: 500px;
+	 height: 400px;
+	 padding-left: 30px;
+	 padding-right: 10px;
+	 padding-top: 10px;
+	 
+ }
+}
+ .ladies{
+	 
+	 padding-left: 30px;
+ }
+ .summer{
+	 padding-top: 10px;
+font-size: 20px;
+	padding-left: 30px;
+	
+ }
+ .sweet-summer{
+	padding-top: 10px;
+	font-size: 20px;
+		padding-left: 30px;
+		text-align: center;
+		
+ }
+	
+ .pr{
+
+ text-align: center;
+ padding-top: 10px;
+ 
+ }
+	
+
+.rating-star{
+	
+	display: flex;
+	justify-content: start;
+	padding: 1px;
+	padding-left: 0;
+	
+}
+.size{
+	
+	list-style: none;
+	display: flex;
+	justify-content: start;
+	padding: 1px;
+	padding-left: 30px;
+	
+}
+.color{
+	list-style: none;
+	display: flex;
+	justify-content: start;
+	padding: 1px;
+	padding-left: 30px;
+}
+.price { 
+padding-top: 5px;
+padding-bottom: 5px;
+	list-style: none;
+	display: flex;
+	justify-content: start;
+	padding: 1px;
+	padding-left: 30px;
+
+	
+}
+.d{
+	padding-top: 2;
+
+	top: 0;
+	display: flex ;
+	justify-content: space-between ;
+	padding-left: 30px;
+	padding-right: 200px;
+		text-align: center;
+		transition: background-color 0.3s;
+		align-items: baseline;
+		
+}
+.d :hover{
+
+		background-color: slateblue;
+}
+
+@media screen and (min-width: 500px){ 
+.offer {
+	width: 1024px;
+	box-sizing:border-box;
+	background: radial-gradient(slateblue,white);
+	display:grid;
+	height:700px;
+	grid-template-columns:1fr 1fr
+  1fr 1fr ;
+	grid-template-rows:1fr 1fr
+  1fr 1fr ;
+	grid-gap:1em;
+	  
+	padding:1em;
+	margin-left: auto;
+    margin-right: auto;
+
+  }
+  .a{
+	
+	grid-column: 1/2;
+  }
+  
+
+  .b{
+	
+	grid-column:2/8;
+	position: relative;
+	
+  }
+  .sazaf-logo {
+	position: absolute;
+	width: 780px;
+	height: 150px;
+	padding-left: 9px;
+padding-right: 9px;
+  }
+  
+  .c{
+	  position: relative;
+	grid-column:1/2;
+	grid-row:2/8;
+  }
+  
+  .watch {
+	  position: absolute;
+	  width: 222px;
+	  height: 510px;
+	  left: 0;
+	  bottom: 0px;	  
+  }
+
+  .dd{
+	
+	grid-column:2/ 8;
+	grid-row:2/8;
+	
+  }
+  .offer-img {
+	  width: 750px;
+	  height:500px;
+	  
+  }
+}
+.back2skool
+  {
+	  text-align: center;
+	  font-size: 25px;
+	  
+  }
+  .buy2-1free{
+	text-align: center;
+}
+
+
+
+
+
+/* Uncomment to unstyle all unordered lists, then a rule for class="ul" to restyle lists when needed
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.ul {
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+} 
+*/
